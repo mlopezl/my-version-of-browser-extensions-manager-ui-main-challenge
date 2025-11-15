@@ -1,100 +1,98 @@
-# Frontend Mentor - Browser extensions manager UI
+# Frontend Mentor – Browser Extensions Manager UI Solution
 
-![Design preview for the Browser extensions manager UI coding challenge](./preview.jpg)
+This is my solution to the **Browser Extensions Manager UI** challenge on [Frontend Mentor](https://www.frontendmentor.io/).  
+The challenge helped me improve my HTML, CSS and JavaScript skills by building an interactive interface inspired by a browser extensions manager layout.
 
-## Welcome! 👋
+## Table of Contents
+- [Overview](#overview)  
+- [The Challenge](#the-challenge)  
+- [Design](#design)  
+- [Links](#links)  
+- [My Process](#my-process)  
+- [Built With](#built-with)  
+- [What I Learned](#what-i-learned)
 
-Thanks for checking out this front-end coding challenge.
+## Overview
+This project is an **interactive browser extensions manager UI** that displays multiple sections including an overview panel and cards representing installed extensions.  
+It features a clean and responsive layout that adapts to different screen sizes, and includes interactive buttons to simulate installation and management actions.  
+The interface also includes **dark mode**, hover and focus states, and persistent storage using the browser's memory.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## The Challenge
+Users should be able to:
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+- Browse the extension cards and interact with the buttons.  
+- View the UI layout depending on their device’s screen width.  
+- Experience hover and focus states on interactive elements.  
+- Switch between **light and dark mode**, with the selected mode stored in the browser memory.  
+- Select installed extensions and store that selection in the browser memory as well.  
+- Read dynamic extension data obtained from a **JSON file**.  
+- Read the information clearly thanks to a structured and semantic layout.
 
-## The challenge
+## Design
+### Desktop Design  
+![Desktop Design](./design/desktop-design-light.jpg)
 
-Your challenge is to build out this browser extension manager UI and get it looking as close to the design as possible.
+### Desktop Design Hover
+![Desktop Design](./design/desktop-design-light-hover.jpg)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Desktop Design Focus
+![Desktop Design](./design/desktop-design-light-focus.jpg)
 
-We provide the data for the extensions in a local `data.json` file. So you can use that to add the data dynamically if you choose.
+### Desktop Design Active
+![Desktop Design](./design/desktop-design-light-active.jpg)
 
-Your users should be able to: 
+### Desktop Design Inactive
+![Desktop Design](./design/desktop-design-light-inactive.jpg)
 
-- Toggle extensions between active and inactive states
-- Filter active and inactive extensions
-- Remove extensions from the list
-- Select their color theme
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+### Mobile Design 
+<img src="./design/mobile-design-light.jpg" width="200px" alt="Desktop design in dark mode with hover state">
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Desktop Design Dark
+![Desktop Design](./design/desktop-design-dark.jpg)
 
-## Where to find everything
+### Desktop Design Dark Hover
+![Desktop Design](./design/desktop-design-dark-hover.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+### Desktop Design Dark Focus
+![Desktop Design](./design/desktop-design-dark-focus.jpg)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Desktop Design Dark Active
+![Desktop Design](./design/desktop-design-dark-active.jpg)
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+### Desktop Design Dark Inactive
+![Desktop Design](./design/desktop-design-dark-inactive.jpg)
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### Mobile Design 
+<img src="./design/mobile-design-dark.jpg" width="200px" alt="Desktop design in dark mode with hover state">
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## Links
+- **Solution URL:** [GitHub Repository](https://github.com/mlopezl/my-version-of-browser-extensions-manager-ui-main-challenge)  
+- **Live Site URL:** [Live Demo](https://mlopezl.github.io/my-version-of-browser-extensions-manager-ui-main-challenge/)
 
-## Building your project
+## My Process
+1. Structured the UI with semantic HTML sections.  
+2. Used **Flexbox** and **CSS Grid** to align and organize all components.  
+3. Applied hover and focus states for a more polished and interactive interface.  
+4. Implemented **dark mode** and stored user preference using `localStorage`.  
+5. Saved extension selections in the browser memory for persistent user experience.  
+6. Loaded dynamic content from a **JSON file** to populate the extension cards.  
+7. Implemented responsiveness using relative units, scaling and breakpoint adjustments.  
+8. Organized files to keep HTML, CSS and assets clean and modular.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+## Built With
+- HTML5  
+- CSS3  
+- Flexbox  
+- CSS Grid  
+- JavaScript  
+- JSON
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+## What I Learned
+- How to structure a multi-section UI cleanly using HTML and CSS.  
+- How to combine **Flexbox + Grid** for flexible and scalable layouts.  
+- How to add hover and focus effects to improve UX.  
+- How to implement and persist **dark mode** using localStorage.  
+- How to store UI selections in browser memory for persistent state.  
+- How to import and render extension data dynamically from a JSON file.  
+- How to adapt the interface to mobile without sacrificing readability and spacing.
